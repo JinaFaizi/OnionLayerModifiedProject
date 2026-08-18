@@ -14,11 +14,13 @@ public class SyntaxService : ISyntaxService
         {
             switch (character)
             {
-                case 'a': counter++; break;
-                case 'e': counter++; break;
-                case 'i': counter++; break;
-                case 'o': counter++; break;
-                case 'u': counter++; break;
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    counter++;
+                    break;
             }
         }
 
